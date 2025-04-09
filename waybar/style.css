@@ -2,12 +2,12 @@
     border: none;
     font-size: 16px;
     font-family: "MesloLGS Nerd Font Mono";
-    min-height: 25px;
-    color: #ebdbb2;
+    min-height: 30px;
+    color: #ABB2BF;
 }
 
 window#waybar {
-  background: transparent;
+  background: #282c34;
   margin: 5px;
  }
 
@@ -18,21 +18,21 @@ window#waybar {
 .modules-right {
   padding-left: 5px;
   border-radius: 15px 0 0 15px;
-  margin-top: 2px;
-  background: #282828;
+  margin-top: 0px;
+  background: transparent;
 }
 
 .modules-center {
   padding: 0 15px;
-  margin-top: 2px;
+  margin-top: 0px;
   border-radius: 15px 15px 15px 15px;
-  background: #1d2021;
+  background: transparent;
 }
 
 .modules-left {
   border-radius: 0 15px 15px 0;
-  margin-top: 2px;
-  background: #282828;
+  margin-top: 0px;
+  background: transparent;
 }
 
 #battery,
@@ -62,38 +62,38 @@ window#waybar {
 }
 
 #disk {
-  color: #fb4934;
+  color: #E06C75;
 }
 
 #memory {
-  color: #fabd2f;
+  color: #E5C07B;
 }
 
 #cpu {
-  color: #98971a;
+  color: #98C379;
 }
 
 #temperature.critical,
 #pulseaudio.muted {
-  color: #cc241d;
+  color: #E05C75;
   padding-top: 0;
 }
 
 #pulseaudio{
-  color: #fb4934;
+  color: #E05C75;
 }
 
 #network {
-  color: #458588;
+  color: #61AFEF;
 }
 
 #clock{
-  color: #689d6a;
+  color: #98C379;
 }
 
 #battery.charging {
     color: #ffffff;
-    background-color: #26A65B;
+    background-color: #98C379;
 }
 
 #battery.warning:not(.charging) {
